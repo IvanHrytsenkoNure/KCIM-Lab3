@@ -4,7 +4,7 @@
 
 <br>
 
-### Варіант 3, модель у середовищі NetLogo:
+### Варіант 5, модель у середовищі NetLogo:
 [Fire Simple Extension 2.](http://www.netlogoweb.org/launch#http://www.netlogoweb.org/assets/modelslib/IABM%20Textbook/chapter%203/Fire%20Extensions/Fire%20Simple%20Extension%202.nlogo)
 
 <br>
