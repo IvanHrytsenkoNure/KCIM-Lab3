@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<!DOCTYPE search SYSTEM "behaviorsearch.dtd">
+<search>
+    <bsearchVersionNumber>1.10</bsearchVersionNumber>
+    <modelInfo>
+        <modelFile>C:\Users\Legion\source\repos\KCIM_labs\Lab3\Fire Simple Extension 2 (1).nlogo</modelFile>
+        <modelSetupCommands>setup</modelSetupCommands>
+        <modelStepCommands>go</modelStepCommands>
+        <modelStopCondition/>
+        <modelStepLimit>500</modelStepLimit>
+        <modelMetricReporter>total-area-burned</modelMetricReporter>
+        <modelMeasureIf>true</modelMeasureIf>
+    </modelInfo>
+    <fitnessInfo>
+        <fitnessMinimized>false</fitnessMinimized>
+        <fitnessCollecting>MEAN_ACROSS_STEPS</fitnessCollecting>
+        <fitnessSamplingReplications>10</fitnessSamplingReplications>
+        <fitnessCombineReplications>MEAN</fitnessCombineReplications>
+    </fitnessInfo>
+    <searchSpace>
+        <paramSpec>["density" [0 1 100]]</paramSpec>
+        <paramSpec>["probability-of-spread" [0 1 100]]</paramSpec>
+        <paramSpec>["south-wind-speed" [-25 1 25]]</paramSpec>
+        <paramSpec>["west-wind-speed" [-25 1 25]]</paramSpec>
+    </searchSpace>
+    <searchMethod type="RandomSearch"/>
+    <chromosomeRepresentation type="StandardBinaryChromosome"/>
+    <caching>true</caching>
+    <evaluationLimit>3000</evaluationLimit>
+    <bestCheckingNumReplications>0</bestCheckingNumReplications>
+</search>
